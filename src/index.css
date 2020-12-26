@@ -13,13 +13,33 @@ code {
 }
 
 #textInput {
+  border-radius: 6px;
   border-color: green;
   border-width: 2px;
   border-style: solid;
-  width: 50%
+  text-align: center;
+  width: 80%;
+  height: 30px
 }
 
 #gradeSelect {
-  width: 40%;
-  padding: 0 0 0 30px;
+  border-radius: 6px;
+  border-color: rgb(83, 175, 148);
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+  text-align-last: center;
+  width: 55%;
+  height: 30px
+}
+
+#addSemesterButton {
+  border-radius: 6px;
+  border-color: rgb(119, 33, 112);
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+  margin-left: 35%;
+  width: 30%;
+  height: 30px
 }

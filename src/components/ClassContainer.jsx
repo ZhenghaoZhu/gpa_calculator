@@ -6,7 +6,14 @@ const options = [
     "A", "B", "C", "D", "F"
   ];
 
+
 export class ClassContainer extends Component {
+    
+    constructor(props) {
+        super(props);
+        console.debug("In ClassContainer constructor");
+    }
+
     render() {
         return (
             <div style={{marginBottom: "15px"}}>
